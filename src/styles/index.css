@@ -1,0 +1,42 @@
+/* Tags */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Saira", sans-serif;
+
+  min-height: min-content;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 0px;
+
+  color: #332e2e;
+}
+
+/* Classes */
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-items: flex-start;
+}
+
+/* Filho de classe */
+
+.title > div {
+  width: 500px;
+  height: 2px;
+  background: #332e2e;
+
+  justify-self: flex-start;
+}
+.title > h2 {
+  font-weight: 600;
+  font-size: 2.8em;
+}
